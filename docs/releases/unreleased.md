@@ -26,6 +26,7 @@ Example:
 
 ## Fixed
 
+- Added a dedicated "Timeblock Event Title Template" setting so synced timeblock event names can differ from task event names
 - Added a dedicated Google Calendar integration setting to enable or disable timeblock synchronization independently from task synchronization
 - Added a task context-menu action to create a timeblock with the task title prefilled, and default times derived from the task schedule or a planning slot
 - Timeblocks created from a task now automatically include that task note as a prefilled attachment
