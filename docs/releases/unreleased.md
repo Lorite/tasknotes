@@ -33,6 +33,7 @@ Example:
 - In Create Timeblock and Edit Timeblock, adding an attachment now auto-fills the title when the title is empty
 - Added an "Add task" action to Create Timeblock and Edit Timeblock to select a task and prefill the title
 - Added a setting to control the ordering of results in the timeblock Add Attachment search window
+- Fixed a calendar view issue where creating or modifying events, timeblocks, etc. could reset the visible date back to today
 - Fixed documentation deployment CI failures caused by `docs-builder/src/js/main.js` being excluded by a broad `.gitignore` `main.js` rule
   - Added a specific unignore rule so the docs site client script is tracked and available in GitHub Actions builds
 - Reduced long-running performance risk from calendar sync token persistence by avoiding full runtime settings side-effects during background sync writes
